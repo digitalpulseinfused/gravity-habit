@@ -72,12 +72,13 @@ $app->addWithDupCheck($update, 'Email');
 //else 
 //apply tag 374
 
-//Sample code
+
 $contactId = 406;
 $groupId = array("456", "376");
 
 //Assign Tags to Contact Record
 //Note: API Service method requires ContactID & GroupID parameters
+//Sample code
 $result = $app->grpAssign($contactId, $groupId);
 
 header('Location: http://thehabit.co.nz/th...');
